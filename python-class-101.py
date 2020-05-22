@@ -7,11 +7,13 @@ print(sum)
 print()
 # Unlike JavaScript and C, it's not mandatory to use semicolons at the end of statements.
 # Neither are curly braces "{}" used to represent blocks. Everything is done with indentation:
-    #I_am_a_parent
-    #    I_am_a_child
-    #        I_am_a_grandchild
-    #    I_am_another_child
-    #        I_am_another_grandchild
+"""
+I_am_a_parent
+    I_am_a_child
+        I_am_a_grandchild
+    I_am_another_child
+        I_am_another_grandchild
+"""
 
 print()
 # And finally, a neat easter egg to inspire your journey:
