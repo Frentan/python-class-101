@@ -24,6 +24,6 @@ print(message)
 print()
 # CONTINUE WITH STRINGS (PAGE 59)
 print()
-# And finally, a neat easter egg to inspire your journey:
+# And finally, a neat Easter egg to inspire your journey:
 import this
 
