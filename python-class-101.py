@@ -14,7 +14,15 @@ I_am_a_parent
     I_am_another_child
         I_am_another_grandchild
 """
-
+# Variables "store" values. To use the classic example:
+message = "Hello, World!"
+print(message)
+# But we can change a variable's value at any point:
+message = "Python is my favorite programming language :-)"
+print(message)
+# Variable names can only have letters, numbers, and underscores, but they cannot start with a number or be the same as reserved keywords.
+print()
+# CONTINUE WITH STRINGS (PAGE 59)
 print()
 # And finally, a neat easter egg to inspire your journey:
 import this
