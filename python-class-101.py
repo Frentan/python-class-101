@@ -36,7 +36,21 @@ pi = 3.141592
 str2 = "The value of pi is " + str(pi)
 print(str2)
 print()
-
+# You can easily make the whole string upper or lower case with their respective methods:
+str3 = "eXaMpLe"
+print(str3)
+print(str3.upper())
+print(str3.lower())
+print()
+# It's also easy to strip a string of leading or trailing whitespaces (by default) or any other characters defined in the parameters:
+str4 = "   a...foo,,,b   "
+print(str4)
+str4 = str4.strip()
+print(str4)
+str4 = str4.strip("a.,b")
+print(str4)
+print()
+# CONTINUE WITH SPLIT METHOD (PAGE 62)
 print()
 # And finally, a neat Easter egg to inspire your journey:
 import this
