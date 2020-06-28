@@ -59,15 +59,29 @@ print(str5subs)
 str5join = ", ".join(str5subs)
 print(str5join)
 print()
-# Slicing & dicing: Python also offers a more practical way to divide and work with segments of lists and strings with the a[start:end] (not inclusive) slice (remember that the index is zero-based):
+# Slicing & dicing: Python also offers a more practical way to divide and work with segments of lists and strings with the s[*start*:*end*] (exclusive) slice (remember that the index is zero-based):
 str6 = "Python"
 print(str6)
 print(str6[1:4])
 print(str6[1:])
 print(str6[:4])
 print()
+# Pay special attention to the s[:] case. This is the Pythonic way to make a copy of a sequence:
+print(str6[:])
 print()
-# CONTINUE WITH SPLIT METHOD (PAGE 62)
+# Python also uses negative numbers to offer easy access to the end of a string (inclusive in this case), counting back from -1:
+print(str6[-1])
+print(str6[:-3])
+print(str6[-3:])
+print()
+# Combining the two indexes, we can conclude that for any index *n*, s[:n] + s[n:] == s, always dividing the sequence in two parts and conserving all characters.
+# We can also combine them to quickly reverse the sequence or parts of it:
+print(str6[::-1])
+print(str6[1::-1]) # First two items, reversed.
+print(str6[:-3:-1]) # Last two items, reversed.
+print(str6[-3::-1]) # Everything except the last two items, reversed.
+print()
+# CONTINUE WITH LISTS (PAGE 64)
 print()
 # And finally, a neat Easter egg to inspire your journey:
 import this
