@@ -50,6 +50,23 @@ print(str4)
 str4 = str4.strip("a.,b")
 print(str4)
 print()
+# Other useful built-in methods are split and join. Split returns substrings separated by delimiters (or whitespaces if undefined):
+str5 = "aaa-bbb-ccc"
+print(str5)
+str5subs = str5.split("-")
+print(str5subs)
+# Join does just the opposite, but with the iterable (list, tuple, string, etc.) inside the parentheses and the delimiter outside:
+str5join = ", ".join(str5subs)
+print(str5join)
+print()
+# Slicing & dicing: Python also offers a more practical way to divide and work with segments of lists and strings with the a[start:end] (not inclusive) slice (remember that the index is zero-based):
+str6 = "Python"
+print(str6)
+print(str6[1:4])
+print(str6[1:])
+print(str6[:4])
+print()
+print()
 # CONTINUE WITH SPLIT METHOD (PAGE 62)
 print()
 # And finally, a neat Easter egg to inspire your journey:
