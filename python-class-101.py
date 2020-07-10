@@ -81,7 +81,29 @@ print(str6[1::-1]) # First two items, reversed.
 print(str6[:-3:-1]) # Last two items, reversed.
 print(str6[-3::-1]) # Everything except the last two items, reversed.
 print()
-# CONTINUE WITH LISTS (PAGE 64)
+# There's a built-in list class, written with [] square brackets.
+# You can use the len() function with lists, just as with strings, and elements follow zero-based numbering.
+colors = ["green", "blue", "yellow"]
+print(colors)
+print(colors[0])
+print(colors[2])
+print(len(colors))
+print()
+# Construct *for* can quickly look at each element in a list in turn:
+sequence = [1, 2, 3, 4, 5]
+print(sequence)
+total = 0
+for i in sequence:
+    total = total + i
+print(total)
+print()
+# Using *in* is an easy way to test if an element appears in the list:
+brothers = ["Chico", "Harpo", "Groucho"]
+print(brothers)
+if "Harpo" in brothers:
+    print("Yay!")
+print()
+# CONTINUE WITH TUPLES (PAGE 67)
 print()
 # And finally, a neat Easter egg to inspire your journey:
 import this
